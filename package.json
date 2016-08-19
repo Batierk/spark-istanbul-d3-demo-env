@@ -1,0 +1,19 @@
+{
+  "name": "d3-sunum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"watchify src/main.js -o dist/bundle.js\" \"live-server\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^2.2.0",
+    "live-server": "^1.0.0",
+    "watchify": "^3.7.0"
+  },
+  "dependencies": {
+    "d3": "3.5.17"
+  }
+}
